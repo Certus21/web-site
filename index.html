@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="inicio.css">
     <title>Santiago City</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md bg-black">
+    <nav class="navbar navbar-expand-md navbar-dark bg-black">
         <div class="container-fluid">
-            <a class="navbar-brand text-light fs-1 ms-5" href="#">Santiago City</a>
+            <a class="navbar-brand fs-2 ms-5" href="https://santiagocityx2.cl/">Santiago City</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -23,42 +23,30 @@
             <div class="collapse navbar-collapse me-5 fs-5" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light d-block" aria-current="page" href="index.html">INICIO</a>
+                        <a class="nav-link" aria-current="page" href="index.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="vip1.html">TIENDA</a>
+                        <a class="nav-link" href="vip1.html">TIENDA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="https://discord.gg/J6kT8vdbuJ">DISCORD</a>
+                        <a class="nav-link" href="https://discord.gg/J6kT8vdbuJ">DISCORD</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" style="max-height: 660px;">
-                <img src="img/rust.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="max-height: 660px;">
-                <img src="img/rust1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" style="max-height: 660px;">
-                <img src="img/rust2.jpg" class="d-block w-100" alt="...">
-            </div>
+    <div class="container">
+        <div class="tittle text-light">
+            <h1 class="h1 fs-1 fw-medium">Santiago City X2</h1>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="full-video">
+            <video preload="auto" autoplay="autoplay" muted="muted" loop="loop" playsinline>
+                <source type="video/mp4" src="video/rust.mp4">
+            </video>
+        </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
